@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body{
+ font-family: "맑은 고딕";
+}
+label{
+ width:150px;
+ height:30px;
+ display: table-cell;
+ border-right: 1px dashed #c6c6c6;
+ padding: 10px 5px;
+}
+form{
+ display:table;
+ border-collapse: collapse;
+ margin: 0 auto;
+ 
+}
+form p{
+  display: table-row;
+ border-bottom: 2px solid #000;
+}
+form h1{
+ color: #fff;
+ background:darkkhaki;
+ display: table-caption;
+ border-bottom: 2px solid #000;
+ text-align:center;
+ padding-bottom: 10px;
+}
+
+form .submit{
+ text-align:right;
+ padding-right: 50px;
+
+ 
+}
+form .submit label{
+ border:none;
+}
+span{
+ display: table-cell;
+ padding: 5px 0px 5px 20px;
+ vertical-align: middle;
+}
+.submit2{
+ font-family: "맑은 고딕";
+ background: darkkhaki;
+ color:#fff;
+ padding:0 auto 10px auto;
+ width:150px;
+ height:30px;
+ margin: 5px 5px;
+ float: left;
+
+}
+input{
+ width:95px;
+ height:30px;
+ margin:2px;
+ border: 1px solid ;
+}
+.text2{
+ width:260px;
+}
+.pay{
+ background: cornsilk;
+ padding-bottom: 20px;
+ width: 500px;
+ margin: 70px auto;
+}
+.submit3{
+	float: left;
+	 
+}
